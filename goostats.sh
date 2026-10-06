@@ -7,4 +7,4 @@ echo "Welcome to Nelle's stats script"
 max=$( cat ${fname} | sort | tail -1)
 =======
 min=$( cat ${fname} | sort | head -1)
-range = $(echo)
+range =$( echo "$max{}")
